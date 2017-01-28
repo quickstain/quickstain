@@ -41,4 +41,3 @@ Since major parts of the game aren't open source, we decided to rewrite the game
 This project environment was designed with Visual Studio Community 2015. Please
 download it to use the full features of our solution file. 
 
-PR1116 is the official alpha name for our rebuild, since we just don't have a name.
