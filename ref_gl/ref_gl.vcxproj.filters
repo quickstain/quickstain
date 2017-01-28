@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\jpeg">
+      <UniqueIdentifier>{d316b1e3-0668-4ade-ba8d-601fdda6292d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\gl_draw.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_image.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_light.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_mesh.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_model.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_rmain.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_rmisc.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_rsurf.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gl_warp.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\glw_imp.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Source\q_shared.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\q_shwin.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\qgl_win.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcapimin.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcapistd.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jccoefct.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jccolor.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcdctmgr.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jchuff.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcinit.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcmainct.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcmarker.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcmaster.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcomapi.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcparam.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcphuff.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcprepct.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jcsample.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdapimin.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdapistd.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdatadst.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdatasrc.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdcoefct.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdcolor.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jddctmgr.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdhuff.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdinput.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdmainct.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdmarker.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdmaster.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdmerge.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdphuff.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdpostct.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jdsample.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jerror.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jfdctflt.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jfdctfst.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jfdctint.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jidctflt.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jidctfst.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jidctint.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jidctred.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jmemmgr.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jmemnobs.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jquant1.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jquant2.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\jpeg\jutils.c">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\anorms.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\anormtab.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gl_model.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\qgl.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\warpsin.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\qmenu.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\ref.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\qcommon.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\qfiles.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win32\glw_win.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\win32\winquake.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gl_local.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jchuff.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jconfig.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jdct.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jdhuff.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jerror.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jinclude.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jmemsys.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jmorecfg.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jpegint.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jpeglib.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\jpeg\jversion.h">
+      <Filter>Quelldateien\jpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gl_cin.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Source\q_shared.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ref_gl.def">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libpng.lib">
+      <Filter>Ressourcendateien</Filter>
+    </Library>
+    <Library Include="zlib.lib">
+      <Filter>Ressourcendateien</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
