@@ -4,3 +4,17 @@
 
 /Quickstain.VC.db
 /Quickstain.VC.VC.opendb
+
+/game/x64/Debug
+/game/Debug
+
+/quake2/Debug
+/quake2/x64/Debug
+
+/x64/Debug
+/Debug
+
+/ref_gl/Debug
+/ref_gl/x64/Debug
+
+/.vs/Quickstain/v14
