@@ -112,7 +112,7 @@ DLL GLUE
 ==========================================================================
 */
 
-#define	MAXPRINTMSG	8192 // staincatcher // 5301
+#define	MAXPRINTMSG	16384 // staincatcher // 5301
 void VID_Printf (int print_level, char *fmt, ...)
 {
 	va_list		argptr;
